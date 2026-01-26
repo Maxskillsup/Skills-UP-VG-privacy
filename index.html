@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Skills UP VG</title>
+    <meta name="description" content="Privacy Policy for Skills UP VG - Language Learning mobile application">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --bg: #f8fafc;
+            --surface: #ffffff;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --accent: #f59e0b;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header .app-name {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+        
+        .language-switcher {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .lang-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            background: var(--surface);
+            color: var(--text);
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+        }
+        
+        .lang-btn:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+        
+        .lang-btn.active {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        
+        .card {
+            background: var(--surface);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: var(--primary-dark);
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border);
+        }
+        
+        h3 {
+            color: var(--text);
+            font-size: 1.1rem;
+            margin: 1.25rem 0 0.75rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-muted);
+        }
+        
+        ul {
+            margin: 0.75rem 0 1rem 1.5rem;
+            color: var(--text-muted);
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 0.95rem;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        th {
+            background: var(--bg);
+            font-weight: 600;
+            color: var(--text);
+        }
+        
+        td {
+            color: var(--text-muted);
+        }
+        
+        .meta {
+            background: var(--bg);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+        
+        .meta strong {
+            color: var(--text);
+        }
+        
+        .highlight {
+            background: #fef3c7;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent);
+            margin: 1rem 0;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .contact-box a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+            margin-top: 2rem;
+        }
+        
+        .checkmark {
+            color: #10b981;
+        }
+        
+        @media (max-width: 600px) {
+            .card {
+                padding: 1.25rem;
+            }
+            
+            .header h1 {
+                font-size: 1.5rem;
+            }
+            
+            table {
+                font-size: 0.85rem;
+            }
+            
+            th, td {
+                padding: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Privacy Policy</h1>
+        <p class="app-name">Skills UP VG - Language Learning</p>
+    </header>
+    
+    <nav class="language-switcher">
+        <a href="index.html" class="lang-btn active">🇬🇧 English</a>
+        <a href="privacy-uk.html" class="lang-btn">🇺🇦 Українська</a>
+    </nav>
+    
+    <main class="container">
+        <div class="card">
+            <div class="meta">
+                <p><strong>App:</strong> Skills UP VG</p>
+                <p><strong>Package:</strong> com.maxskillsup.SkillsUPVG</p>
+                <p><strong>Last Updated:</strong> January 26, 2026</p>
+                <p><strong>Effective Date:</strong> January 26, 2026</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Introduction</h2>
+            <p>Welcome to Skills UP VG ("we," "our," or "us"). We are committed to protecting your privacy and ensuring transparency about how we handle information when you use our mobile application ("App").</p>
+            <p>This Privacy Policy explains what information we collect, how we use it, and your rights regarding your data. By using the App, you agree to the practices described in this policy.</p>
+        </div>
+
+        <div class="card">
+            <h2>1. Information We Collect</h2>
+            
+            <h3>1.1 Information You Provide Voluntarily</h3>
+            <p><strong>Error Reports and Suggestions</strong></p>
+            <p>When you submit feedback about phrase corrections or errors, we collect:</p>
+            <ul>
+                <li>Your suggested correction text</li>
+                <li>Optional description of the issue</li>
+                <li>The original phrase content you are reporting</li>
+            </ul>
+            <p>This information is submitted voluntarily and does not require creating an account.</p>
+
+            <h3>1.2 Information Collected Automatically</h3>
+            <p><strong>Technical Data</strong></p>
+            <p>When you use the App, we may automatically collect:</p>
+            <ul>
+                <li>IP address (used solely for rate limiting to prevent abuse)</li>
+                <li>Device type and operating system version</li>
+                <li>App version</li>
+                <li>Crash reports and performance data</li>
+            </ul>
+            
+            <p><strong>Analytics Data</strong></p>
+            <p>We use Firebase Analytics to understand how users interact with the App. This includes:</p>
+            <ul>
+                <li>App usage statistics (screens viewed, features used)</li>
+                <li>Session duration</li>
+                <li>General geographic region (country level)</li>
+            </ul>
+
+            <h3>1.3 Information We Do NOT Collect</h3>
+            <div class="highlight">
+                <p>We do <strong>not</strong> collect:</p>
+                <ul>
+                    <li>Personal identification information (name, email, phone number)</li>
+                    <li>Location data (GPS)</li>
+                    <li>Contacts or address book information</li>
+                    <li>Photos, videos, or files from your device</li>
+                    <li>Financial or payment information</li>
+                    <li>Health or fitness data</li>
+                    <li>Messages or communication content</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>2. How We Use Your Information</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Purpose</th>
+                        <th>Legal Basis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Improve phrase content based on user feedback</td>
+                        <td>Legitimate interest</td>
+                    </tr>
+                    <tr>
+                        <td>Prevent abuse through rate limiting</td>
+                        <td>Legitimate interest</td>
+                    </tr>
+                    <tr>
+                        <td>Analyze app performance and fix bugs</td>
+                        <td>Legitimate interest</td>
+                    </tr>
+                    <tr>
+                        <td>Understand usage patterns to improve the App</td>
+                        <td>Legitimate interest</td>
+                    </tr>
+                    <tr>
+                        <td>Ensure app security and prevent fraud</td>
+                        <td>Legitimate interest</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>3. Data Storage and Security</h2>
+            
+            <h3>3.1 Data Storage</h3>
+            <ul>
+                <li><strong>Error reports</strong> are stored in Supabase (cloud database) with industry-standard security measures</li>
+                <li><strong>Analytics data</strong> is processed by Google Firebase in accordance with their privacy practices</li>
+                <li>Data is stored on servers located in the United States and European Union</li>
+            </ul>
+
+            <h3>3.2 Data Retention</h3>
+            <ul>
+                <li><strong>Error reports:</strong> Retained until reviewed and processed, then anonymized or deleted within 12 months</li>
+                <li><strong>Analytics data:</strong> Retained according to Firebase default settings (14 months)</li>
+                <li><strong>Rate limiting data:</strong> Automatically deleted after 24 hours</li>
+            </ul>
+
+            <h3>3.3 Security Measures</h3>
+            <p>We implement appropriate technical and organizational measures to protect your data:</p>
+            <ul>
+                <li>Encrypted data transmission (HTTPS/TLS)</li>
+                <li>Row Level Security (RLS) policies on databases</li>
+                <li>Regular security audits</li>
+                <li>Access controls for administrative functions</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>4. Data Sharing and Third Parties</h2>
+            
+            <h3>4.1 Third-Party Services</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Purpose</th>
+                        <th>Privacy Policy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Supabase</td>
+                        <td>Database and backend</td>
+                        <td><a href="https://supabase.com/privacy" target="_blank">Link</a></td>
+                    </tr>
+                    <tr>
+                        <td>Firebase Analytics</td>
+                        <td>Usage analytics</td>
+                        <td><a href="https://firebase.google.com/support/privacy" target="_blank">Link</a></td>
+                    </tr>
+                    <tr>
+                        <td>Google Play Services</td>
+                        <td>App distribution</td>
+                        <td><a href="https://policies.google.com/privacy" target="_blank">Link</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>4.2 We Do NOT:</h3>
+            <ul>
+                <li>Sell your personal information to third parties</li>
+                <li>Share data with advertisers for targeted advertising</li>
+                <li>Transfer data to third parties for their marketing purposes</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>5. Your Rights and Choices</h2>
+            
+            <h3>5.1 Your Rights (GDPR)</h3>
+            <p>If you are in the European Economic Area (EEA), you have the right to:</p>
+            <ul>
+                <li><strong>Access:</strong> Request a copy of data we hold about you</li>
+                <li><strong>Rectification:</strong> Request correction of inaccurate data</li>
+                <li><strong>Erasure:</strong> Request deletion of your data ("right to be forgotten")</li>
+                <li><strong>Restriction:</strong> Request limitation of processing</li>
+                <li><strong>Portability:</strong> Receive your data in a portable format</li>
+                <li><strong>Object:</strong> Object to processing based on legitimate interests</li>
+            </ul>
+
+            <h3>5.2 Your Rights (CCPA)</h3>
+            <p>If you are a California resident, you have the right to:</p>
+            <ul>
+                <li>Know what personal information we collect</li>
+                <li>Request deletion of your personal information</li>
+                <li>Non-discrimination for exercising your privacy rights</li>
+            </ul>
+
+            <h3>5.3 How to Exercise Your Rights</h3>
+            <p>To exercise any of these rights, contact us at: <a href="mailto:maxskillsup@gmail.com">maxskillsup@gmail.com</a></p>
+            <p>We will respond to your request within 30 days.</p>
+
+            <h3>5.4 Opt-Out Options</h3>
+            <ul>
+                <li><strong>Analytics:</strong> You can opt out of Firebase Analytics by enabling "Limit Ad Tracking" in your device settings</li>
+                <li><strong>Error Reports:</strong> Submitting error reports is entirely voluntary</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>6. Children's Privacy</h2>
+            <p>Our App is suitable for all ages and complies with the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect personal information from children under 13.</p>
+            <p>If you believe we have inadvertently collected information from a child under 13, please contact us immediately, and we will take steps to delete such information.</p>
+        </div>
+
+        <div class="card">
+            <h2>7. International Data Transfers</h2>
+            <p>Your information may be transferred to and processed in countries other than your country of residence, including the United States. These countries may have different data protection laws.</p>
+            <p>When we transfer data internationally, we ensure appropriate safeguards are in place, including standard contractual clauses approved by the European Commission.</p>
+        </div>
+
+        <div class="card">
+            <h2>8. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes by posting the new Privacy Policy in the App and updating the "Last Updated" date at the top of this policy.</p>
+            <p>Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+        </div>
+
+        <div class="card">
+            <h2>9. Contact Us</h2>
+            <div class="contact-box">
+                <p><strong>Developer:</strong> MaxSkillsUP</p>
+                <p><strong>Email:</strong> <a href="mailto:maxskillsup@gmail.com">maxskillsup@gmail.com</a></p>
+                <p><strong>App:</strong> Skills UP VG</p>
+                <p><strong>Package:</strong> com.maxskillsup.SkillsUPVG</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>10. Data Safety Summary for Google Play</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data Type</th>
+                        <th>Collected</th>
+                        <th>Shared</th>
+                        <th>Purpose</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Crash logs</td>
+                        <td>Yes</td>
+                        <td>No</td>
+                        <td>App functionality</td>
+                    </tr>
+                    <tr>
+                        <td>Performance diagnostics</td>
+                        <td>Yes</td>
+                        <td>No</td>
+                        <td>App functionality</td>
+                    </tr>
+                    <tr>
+                        <td>App interactions</td>
+                        <td>Yes</td>
+                        <td>No</td>
+                        <td>Analytics</td>
+                    </tr>
+                    <tr>
+                        <td>User feedback</td>
+                        <td>Yes</td>
+                        <td>No</td>
+                        <td>Service improvement</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="highlight">
+                <p><strong>Data is:</strong></p>
+                <ul>
+                    <li><span class="checkmark">✓</span> Encrypted in transit</li>
+                    <li><span class="checkmark">✓</span> Not sold to third parties</li>
+                    <li><span class="checkmark">✓</span> Deletion available upon request</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 MaxSkillsUP. All rights reserved.</p>
+        <p>This Privacy Policy is effective as of January 26, 2026.</p>
+    </footer>
+</body>
+</html>
