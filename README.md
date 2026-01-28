@@ -34,8 +34,8 @@ This repository hosts the Privacy Policy for the **Skills UP VG** mobile applica
 
 ## 📧 Contact
 
-For privacy-related inquiries, contact us at: **maxskillsup@gmail.com**
+For privacy-related inquiries, contact us at: **collaborationskillsup@gmail.com**
 
 ---
 
-*Last Updated: January 26, 2026*
+*Last Updated: January 28, 2026*

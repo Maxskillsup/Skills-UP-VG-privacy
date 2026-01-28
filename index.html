@@ -46,7 +46,7 @@
         
         .header .app-name {
             font-size: 1rem;
-            opacity: 0.9;
+            color: #ffffff;
         }
         
         .language-switcher {
@@ -235,7 +235,7 @@
             <div class="meta">
                 <p><strong>App:</strong> Skills UP VG</p>
                 <p><strong>Package:</strong> com.maxskillsup.SkillsUPVG</p>
-                <p><strong>Last Updated:</strong> January 26, 2026</p>
+                <p><strong>Last Updated:</strong> January 28, 2026</p>
                 <p><strong>Effective Date:</strong> January 26, 2026</p>
             </div>
         </div>
@@ -269,12 +269,12 @@
                 <li>Crash reports and performance data</li>
             </ul>
             
-            <p><strong>Analytics Data</strong></p>
-            <p>We use Firebase Analytics to understand how users interact with the App. This includes:</p>
+            <p><strong>Crash Reporting Data</strong></p>
+            <p>We use Sentry to monitor app stability and fix bugs. This includes:</p>
             <ul>
-                <li>App usage statistics (screens viewed, features used)</li>
-                <li>Session duration</li>
-                <li>General geographic region (country level)</li>
+                <li>Crash reports and error logs</li>
+                <li>Device type and operating system version</li>
+                <li>App version and build number</li>
             </ul>
 
             <h3>1.3 Information We Do NOT Collect</h3>
@@ -339,7 +339,7 @@
             <h3>3.2 Data Retention</h3>
             <ul>
                 <li><strong>Error reports:</strong> Retained until reviewed and processed, then anonymized or deleted within 12 months</li>
-                <li><strong>Analytics data:</strong> Retained according to Firebase default settings (14 months)</li>
+                <li><strong>Crash reports:</strong> Retained for 90 days according to Sentry default settings</li>
                 <li><strong>Rate limiting data:</strong> Automatically deleted after 24 hours</li>
             </ul>
 
@@ -372,9 +372,9 @@
                         <td><a href="https://supabase.com/privacy" target="_blank">Link</a></td>
                     </tr>
                     <tr>
-                        <td>Firebase Analytics</td>
-                        <td>Usage analytics</td>
-                        <td><a href="https://firebase.google.com/support/privacy" target="_blank">Link</a></td>
+                        <td>Sentry</td>
+                        <td>Crash reporting</td>
+                        <td><a href="https://sentry.io/privacy/" target="_blank">Link</a></td>
                     </tr>
                     <tr>
                         <td>Google Play Services</td>
@@ -415,12 +415,12 @@
             </ul>
 
             <h3>5.3 How to Exercise Your Rights</h3>
-            <p>To exercise any of these rights, contact us at: <a href="mailto:maxskillsup@gmail.com">maxskillsup@gmail.com</a></p>
+            <p>To exercise any of these rights, contact us at: <a href="mailto:collaborationskillsup@gmail.com">collaborationskillsup@gmail.com</a></p>
             <p>We will respond to your request within 30 days.</p>
 
             <h3>5.4 Opt-Out Options</h3>
             <ul>
-                <li><strong>Analytics:</strong> You can opt out of Firebase Analytics by enabling "Limit Ad Tracking" in your device settings</li>
+                <li><strong>Crash Reporting:</strong> Crash reports are only sent when the app encounters an error</li>
                 <li><strong>Error Reports:</strong> Submitting error reports is entirely voluntary</li>
             </ul>
         </div>
@@ -447,7 +447,7 @@
             <h2>9. Contact Us</h2>
             <div class="contact-box">
                 <p><strong>Developer:</strong> MaxSkillsUP</p>
-                <p><strong>Email:</strong> <a href="mailto:maxskillsup@gmail.com">maxskillsup@gmail.com</a></p>
+                <p><strong>Email:</strong> <a href="mailto:collaborationskillsup@gmail.com">collaborationskillsup@gmail.com</a></p>
                 <p><strong>App:</strong> Skills UP VG</p>
                 <p><strong>Package:</strong> com.maxskillsup.SkillsUPVG</p>
             </div>
@@ -478,12 +478,6 @@
                         <td>App functionality</td>
                     </tr>
                     <tr>
-                        <td>App interactions</td>
-                        <td>Yes</td>
-                        <td>No</td>
-                        <td>Analytics</td>
-                    </tr>
-                    <tr>
                         <td>User feedback</td>
                         <td>Yes</td>
                         <td>No</td>
@@ -502,9 +496,40 @@
         </div>
     </main>
 
+        <div class="card">
+            <h2>11. Version History</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Version</th>
+                        <th>Date</th>
+                        <th>Changes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.0</td>
+                        <td>January 26, 2026</td>
+                        <td>Initial version</td>
+                    </tr>
+                    <tr>
+                        <td>1.1</td>
+                        <td>January 28, 2026</td>
+                        <td>Updated contact email, added version history</td>
+                    </tr>
+                    <tr>
+                        <td>1.2</td>
+                        <td>January 28, 2026</td>
+                        <td>Replaced Firebase Analytics with Sentry crash reporting</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
     <footer class="footer">
         <p>© 2026 MaxSkillsUP. All rights reserved.</p>
-        <p>This Privacy Policy is effective as of January 26, 2026.</p>
+        <p>This Privacy Policy is effective as of January 26, 2026. Last updated: January 28, 2026.</p>
     </footer>
 </body>
 </html>

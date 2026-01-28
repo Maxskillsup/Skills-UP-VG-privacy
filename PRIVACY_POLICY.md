@@ -2,7 +2,7 @@
 
 **Skills UP VG**  
 **Package:** com.maxskillsup.SkillsUPVG  
-**Last Updated:** January 26, 2026  
+**Last Updated:** January 28, 2026  
 **Effective Date:** January 26, 2026
 
 ---
@@ -36,13 +36,13 @@ When you use the App, we may automatically collect:
 - App version
 - Crash reports and performance data
 
-**Analytics Data**  
-We use Firebase Analytics to understand how users interact with the App. This includes:
-- App usage statistics (screens viewed, features used)
-- Session duration
-- General geographic region (country level)
+**Crash Reporting Data**  
+We use Sentry to monitor app stability and fix bugs. This includes:
+- Crash reports and error logs
+- Device type and operating system version
+- App version and build number
 
-Firebase Analytics may use advertising identifiers. You can opt out of personalized advertising through your device settings.
+Sentry only collects data when the app encounters an error.
 
 ### 1.3 Information We Do NOT Collect
 
@@ -82,7 +82,7 @@ We use the collected information for the following purposes:
 ### 3.2 Data Retention
 
 - **Error reports**: Retained until reviewed and processed, then anonymized or deleted within 12 months
-- **Analytics data**: Retained according to Firebase default settings (14 months)
+- **Crash reports**: Retained for 90 days according to Sentry default settings
 - **Rate limiting data**: Automatically deleted after 24 hours
 
 ### 3.3 Security Measures
@@ -104,7 +104,7 @@ We use the following third-party services:
 | Service | Purpose | Privacy Policy |
 |---------|---------|----------------|
 | **Supabase** | Database and backend | [supabase.com/privacy](https://supabase.com/privacy) |
-| **Firebase Analytics** | Usage analytics | [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy) |
+| **Sentry** | Crash reporting | [sentry.io/privacy](https://sentry.io/privacy/) |
 | **Google Play Services** | App distribution | [policies.google.com/privacy](https://policies.google.com/privacy) |
 
 ### 4.2 We Do NOT:
@@ -141,13 +141,13 @@ If you are a California resident, you have the right to:
 ### 5.3 How to Exercise Your Rights
 
 To exercise any of these rights, contact us at:
-- **Email:** maxskillsup@gmail.com
+- **Email:** collaborationskillsup@gmail.com
 
 We will respond to your request within 30 days.
 
 ### 5.4 Opt-Out Options
 
-- **Analytics**: You can opt out of Firebase Analytics by enabling "Limit Ad Tracking" in your device settings
+- **Crash Reporting**: Crash reports are only sent when the app encounters an error
 - **Error Reports**: Submitting error reports is entirely voluntary
 
 ---
@@ -203,7 +203,6 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 |-----------|-----------|--------|---------|
 | Crash logs | Yes | No | App functionality |
 | Performance diagnostics | Yes | No | App functionality |
-| App interactions | Yes | No | Analytics |
 | User feedback | Yes | No | Service improvement |
 
 **Data is:**
@@ -213,4 +212,16 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 
 ---
 
-*This Privacy Policy is effective as of January 26, 2026.*
+---
+
+## 11. Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0 | January 26, 2026 | Initial version |
+| 1.1 | January 28, 2026 | Updated contact email, added version history |
+| 1.2 | January 28, 2026 | Replaced Firebase Analytics with Sentry crash reporting |
+
+---
+
+*This Privacy Policy is effective as of January 26, 2026. Last updated: January 28, 2026.*
