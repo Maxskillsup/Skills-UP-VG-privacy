@@ -32,18 +32,16 @@ This information is submitted voluntarily and does not require creating an accou
 
 **Technical Data**  
 When you use the App, we may automatically collect:
-- IP address (used solely for rate limiting to prevent abuse)
 - Device type and operating system version
 - App version
-- Crash reports and performance data
 
-**Analytics Data**  
-We use Firebase Analytics to understand how users interact with the App. This includes:
-- App usage statistics (screens viewed, features used)
-- Session duration
-- General geographic region (country level)
+**Crash Reports**  
+We use Sentry for crash reporting to help diagnose and fix technical issues. This includes:
+- Crash and error information
+- App version and operating system version
+- General technical information for diagnostics
 
-Firebase Analytics may use advertising identifiers. You can opt out of personalized advertising through your device settings.
+We do not collect usage analytics or track user behavior.
 
 ### 1.3 Information We Do NOT Collect
 
@@ -77,14 +75,13 @@ We use the collected information for the following purposes:
 ### 3.1 Data Storage
 
 - **Error reports** are stored in Supabase (cloud database) with industry-standard security measures
-- **Analytics data** is processed by Google Firebase in accordance with their privacy practices
+- **Crash reports** are processed by Sentry for diagnosing technical issues
 - Data is stored on servers located in the United States and European Union
 
 ### 3.2 Data Retention
 
 - **Error reports**: Retained until reviewed and processed, then anonymized or deleted within 12 months
-- **Analytics data**: Retained according to Firebase default settings (14 months)
-- **Rate limiting data**: Automatically deleted after 24 hours
+- **Crash reports**: Retained according to Sentry default settings (90 days)
 
 ### 3.3 Security Measures
 
@@ -105,7 +102,7 @@ We use the following third-party services:
 | Service | Purpose | Privacy Policy |
 |---------|---------|----------------|
 | **Supabase** | Database and backend | [supabase.com/privacy](https://supabase.com/privacy) |
-| **Firebase Analytics** | Usage analytics | [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy) |
+| **Sentry** | Crash reporting | [sentry.io/privacy](https://sentry.io/privacy/) |
 | **Google Play Services** | App distribution | [policies.google.com/privacy](https://policies.google.com/privacy) |
 
 ### 4.2 We Do NOT:
@@ -148,7 +145,6 @@ We will respond to your request within 30 days.
 
 ### 5.4 Opt-Out Options
 
-- **Analytics**: You can opt out of Firebase Analytics by enabling "Limit Ad Tracking" in your device settings
 - **Error Reports**: Submitting error reports is entirely voluntary
 
 ---
@@ -204,7 +200,6 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 |-----------|-----------|--------|---------|
 | Crash logs | Yes | No | App functionality |
 | Performance diagnostics | Yes | No | App functionality |
-| App interactions | Yes | No | Analytics |
 | Error notifications | Yes | No | Service improvement |
 
 **Note:** Error notifications contain only the phrase ID being reported. Users cannot enter any custom text or personal information when reporting errors.
@@ -216,4 +211,4 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 
 ---
 
-*This Privacy Policy is effective as of January 26, 2026.*
+*This Privacy Policy is effective as of January 29, 2026.*
