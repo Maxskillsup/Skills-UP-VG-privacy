@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Політика Конфіденційності - Skills UP VG</title>
-    <meta name="description" content="Політика конфіденційності мобільного додатку Skills UP VG - вивчення мов">
+    <meta name="description" content="Політика конфіденційності мобільного додатку Skills UP VG">
     <style>
         :root {
             --primary: #2563eb;
@@ -46,7 +46,7 @@
         
         .header .app-name {
             font-size: 1rem;
-            color: #ffffff;
+            opacity: 0.9;
         }
         
         .language-switcher {
@@ -222,7 +222,7 @@
 <body>
     <header class="header">
         <h1>Політика Конфіденційності</h1>
-        <p class="app-name">Skills UP VG - Вивчення мов</p>
+        <p class="app-name">Skills UP VG</p>
     </header>
     
     <nav class="language-switcher">
@@ -235,7 +235,7 @@
             <div class="meta">
                 <p><strong>Додаток:</strong> Skills UP VG</p>
                 <p><strong>Пакет:</strong> com.maxskillsup.SkillsUPVG</p>
-                <p><strong>Останнє оновлення:</strong> 28 січня 2026 року</p>
+                <p><strong>Останнє оновлення:</strong> 29 січня 2026 року</p>
                 <p><strong>Дата набуття чинності:</strong> 26 січня 2026 року</p>
             </div>
         </div>
@@ -250,13 +250,15 @@
             <h2>1. Інформація, яку ми збираємо</h2>
             
             <h3>1.1 Інформація, яку ви надаєте добровільно</h3>
-            <p><strong>Звіти про помилки та пропозиції</strong></p>
-            <p>Коли ви надсилаєте відгук про виправлення фраз або помилки, ми збираємо:</p>
+            <p><strong>Повідомлення про помилки</strong></p>
+            <p>Коли ви повідомляєте про помилку у фразі, ми збираємо лише:</p>
             <ul>
-                <li>Текст вашого запропонованого виправлення</li>
-                <li>Необов'язковий опис проблеми</li>
-                <li>Оригінальний вміст фрази, про яку ви повідомляєте</li>
+                <li>Ідентифікатор фрази, про яку повідомляється (ID фрази)</li>
+                <li>Поточний вміст фрази</li>
             </ul>
+            <div class="highlight">
+                <p><strong>Важливо:</strong> Додаток <strong>не дозволяє</strong> користувачам вводити будь-який власний текст при повідомленні про помилки. Користувачі можуть лише натиснути кнопку, щоб повідомити нас, що фраза може містити помилку. Жодні особисті повідомлення, пропозиції чи описи не збираються.</p>
+            </div>
             <p>Ця інформація надається добровільно і не вимагає створення облікового запису.</p>
 
             <h3>1.2 Інформація, що збирається автоматично</h3>
@@ -269,12 +271,12 @@
                 <li>Звіти про збої та дані про продуктивність</li>
             </ul>
             
-            <p><strong>Дані про збої</strong></p>
-            <p>Ми використовуємо Sentry для моніторингу стабільності додатку та виправлення помилок:</p>
+            <p><strong>Аналітичні дані</strong></p>
+            <p>Ми використовуємо Firebase Analytics для розуміння того, як користувачі взаємодіють з Додатком:</p>
             <ul>
-                <li>Звіти про збої та журнали помилок</li>
-                <li>Тип пристрою та версія операційної системи</li>
-                <li>Версія та номер збірки додатку</li>
+                <li>Статистика використання додатку (переглянуті екрани, використані функції)</li>
+                <li>Тривалість сесії</li>
+                <li>Загальний географічний регіон (на рівні країни)</li>
             </ul>
 
             <h3>1.3 Інформація, яку ми НЕ збираємо</h3>
@@ -339,7 +341,7 @@
             <h3>3.2 Термін зберігання даних</h3>
             <ul>
                 <li><strong>Звіти про помилки:</strong> до 12 місяців після обробки</li>
-                <li><strong>Звіти про збої:</strong> 90 днів (налаштування Sentry)</li>
+                <li><strong>Аналітичні дані:</strong> 14 місяців (налаштування Firebase)</li>
                 <li><strong>Дані обмеження частоти:</strong> автоматично видаляються через 24 години</li>
             </ul>
 
@@ -371,9 +373,9 @@
                         <td><a href="https://supabase.com/privacy" target="_blank">Посилання</a></td>
                     </tr>
                     <tr>
-                        <td>Sentry</td>
-                        <td>Звіти про збої</td>
-                        <td><a href="https://sentry.io/privacy/" target="_blank">Посилання</a></td>
+                        <td>Firebase Analytics</td>
+                        <td>Аналітика</td>
+                        <td><a href="https://firebase.google.com/support/privacy" target="_blank">Посилання</a></td>
                     </tr>
                     <tr>
                         <td>Google Play Services</td>
@@ -414,12 +416,12 @@
             </ul>
 
             <h3>5.3 Як реалізувати права</h3>
-            <p>Зв'яжіться з нами: <a href="mailto:collaborationskillsup@gmail.com">collaborationskillsup@gmail.com</a></p>
+            <p>Зв'яжіться з нами: <a href="mailto:maxskillsup@gmail.com">maxskillsup@gmail.com</a></p>
             <p>Ми відповімо протягом 30 днів.</p>
 
             <h3>5.4 Можливості відмови</h3>
             <ul>
-                <li><strong>Звіти про збої:</strong> Надсилаються лише при виникненні помилки в додатку</li>
+                <li><strong>Аналітика:</strong> Увімкніть "Обмежити відстеження" в налаштуваннях пристрою</li>
                 <li><strong>Звіти:</strong> Надсилання є повністю добровільним</li>
             </ul>
         </div>
@@ -446,7 +448,7 @@
             <h2>9. Зв'яжіться з нами</h2>
             <div class="contact-box">
                 <p><strong>Розробник:</strong> MaxSkillsUP</p>
-                <p><strong>Email:</strong> <a href="mailto:collaborationskillsup@gmail.com">collaborationskillsup@gmail.com</a></p>
+                <p><strong>Email:</strong> <a href="mailto:maxskillsup@gmail.com">maxskillsup@gmail.com</a></p>
                 <p><strong>Додаток:</strong> Skills UP VG</p>
                 <p><strong>Пакет:</strong> com.maxskillsup.SkillsUPVG</p>
             </div>
@@ -477,6 +479,12 @@
                         <td>Функціональність</td>
                     </tr>
                     <tr>
+                        <td>Взаємодії</td>
+                        <td>Так</td>
+                        <td>Ні</td>
+                        <td>Аналітика</td>
+                    </tr>
+                    <tr>
                         <td>Відгуки</td>
                         <td>Так</td>
                         <td>Ні</td>
@@ -495,40 +503,9 @@
         </div>
     </main>
 
-        <div class="card">
-            <h2>11. Історія версій</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Версія</th>
-                        <th>Дата</th>
-                        <th>Зміни</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1.0</td>
-                        <td>26 січня 2026</td>
-                        <td>Початкова версія</td>
-                    </tr>
-                    <tr>
-                        <td>1.1</td>
-                        <td>28 січня 2026</td>
-                        <td>Оновлено контактний email, додано історію версій</td>
-                    </tr>
-                    <tr>
-                        <td>1.2</td>
-                        <td>28 січня 2026</td>
-                        <td>Замінено Firebase Analytics на Sentry для звітів про збої</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </main>
-
     <footer class="footer">
         <p>© 2026 MaxSkillsUP. Усі права захищені.</p>
-        <p>Ця Політика Конфіденційності діє з 26 січня 2026 року. Останнє оновлення: 28 січня 2026 року.</p>
+        <p>Ця Політика Конфіденційності діє з 26 січня 2026 року.</p>
     </footer>
 </body>
 </html>
