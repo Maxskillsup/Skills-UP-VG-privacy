@@ -7,7 +7,7 @@ This repository hosts the Privacy Policy for the **Skills UP VG** mobile applica
 | Property | Value |
 |----------|-------|
 | **App Name** | Skills UP VG |
-| **Package** | com.maxskillsup.SkillsUPVG |
+| **Package** | com.maxskillsup.skillsupvg |
 | **Developer** | MaxSkillsUP |
 | **Platform** | Android |
 
@@ -38,4 +38,4 @@ For privacy-related inquiries, contact us at: **collaborationskillsup@gmail.com*
 
 ---
 
-*Last Updated: January 28, 2026*
+*Last Updated: February 4, 2026*

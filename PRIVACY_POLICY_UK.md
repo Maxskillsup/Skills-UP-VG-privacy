@@ -1,7 +1,7 @@
 # Політика Конфіденційності
 
 **Skills UP VG**  
-**Пакет:** com.maxskillsup.SkillsUPVG  
+**Пакет:** com.maxskillsup.skillsupvg  
 **Останнє оновлення:** 29 січня 2026 року  
 **Дата набуття чинності:** 29 січня 2026 року
 
@@ -188,7 +188,7 @@
 **Розробник:** MaxSkillsUP  
 **Email:** maxskillsup@gmail.com  
 **Додаток:** Skills UP VG  
-**Пакет:** com.maxskillsup.SkillsUPVG
+**Пакет:** com.maxskillsup.skillsupvg
 
 ---
 

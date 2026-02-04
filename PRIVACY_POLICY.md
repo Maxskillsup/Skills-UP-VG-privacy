@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Skills UP VG**  
-**Package:** com.maxskillsup.SkillsUPVG  
+**Package:** com.maxskillsup.skillsupvg  
 **Last Updated:** January 29, 2026  
 **Effective Date:** January 29, 2026
 
@@ -188,7 +188,7 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 **Developer:** MaxSkillsUP  
 **Email:** maxskillsup@gmail.com  
 **App:** Skills UP VG  
-**Package:** com.maxskillsup.SkillsUPVG
+**Package:** com.maxskillsup.skillsupvg
 
 ---
 
