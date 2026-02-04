@@ -2,8 +2,8 @@
 
 **Skills UP VG**  
 **Package:** com.maxskillsup.skillsupvg  
-**Last Updated:** January 29, 2026  
-**Effective Date:** January 29, 2026
+**Last Updated:** February 4, 2026  
+**Effective Date:** February 4, 2026
 
 ---
 
@@ -139,7 +139,7 @@ If you are a California resident, you have the right to:
 ### 5.3 How to Exercise Your Rights
 
 To exercise any of these rights, contact us at:
-- **Email:** maxskillsup@gmail.com
+- **Email:** collaborationskillsup@gmail.com
 
 We will respond to your request within 30 days.
 
@@ -186,7 +186,7 @@ We encourage you to review this Privacy Policy periodically. Continued use of th
 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
 
 **Developer:** MaxSkillsUP  
-**Email:** maxskillsup@gmail.com  
+**Email:** collaborationskillsup@gmail.com  
 **App:** Skills UP VG  
 **Package:** com.maxskillsup.skillsupvg
 
@@ -211,4 +211,4 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 
 ---
 
-*This Privacy Policy is effective as of January 29, 2026.*
+*This Privacy Policy is effective as of February 4, 2026.*
