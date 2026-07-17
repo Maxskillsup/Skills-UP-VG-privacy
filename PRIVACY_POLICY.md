@@ -1,9 +1,9 @@
 # Privacy Policy
 
 **Skills UP VG**  
-**Package:** com.maxskillsup.skillsupvg  
-**Last Updated:** February 4, 2026  
-**Effective Date:** February 4, 2026
+**Package:** com.maxskillsup.SkillsUPVG  
+**Last Updated:** July 17, 2026  
+**Effective Date:** July 17, 2026
 
 ---
 
@@ -35,13 +35,29 @@ When you use the App, we may automatically collect:
 - Device type and operating system version
 - App version
 
+**Local Notification Preferences (On Device Only)**  
+If you enable study reminders, the app stores the following **locally on your device**:
+- Reminder frequency you choose (1/day, 3/day, or custom 0-9/day)
+- Your scheduled local reminder times
+- Your recent study activity timestamps (for reminder timing optimization)
+- Notification permission status (granted/denied)
+
+This reminder configuration is used only to deliver on-device local notifications and is not sent to our servers.
+
 **Crash Reports**  
 We use Sentry for crash reporting to help diagnose and fix technical issues. This includes:
 - Crash and error information
 - App version and operating system version
 - General technical information for diagnostics
 
-We do not collect usage analytics or track user behavior.
+**Analytics Data**  
+We use Firebase Analytics (Google) to understand how people use the App. This helps us see where users stop using the App and improve features. This includes:
+- Screens viewed and features used (for example categories, audio playback, games)
+- Session duration and activity
+- General technical context (app version, device type)
+- Approximate geographic region at country level (if provided by Google)
+
+Analytics is **anonymous**: no account is required, and we do not link these events to your name or email. We do not use Firebase Analytics for personalized advertising. Reminder timing optimization continues to run on-device.
 
 ### 1.3 Information We Do NOT Collect
 
@@ -65,8 +81,10 @@ We use the collected information for the following purposes:
 | Improve phrase content based on user feedback | Legitimate interest |
 | Prevent abuse through rate limiting | Legitimate interest |
 | Analyze app performance and fix bugs | Legitimate interest |
-| Understand usage patterns to improve the App | Legitimate interest |
+| Understand usage patterns and drop-off points to improve the App | Legitimate interest |
+| Optimize reminder timing based on recent on-device study activity | Legitimate interest |
 | Ensure app security and prevent fraud | Legitimate interest |
+| Send optional local study reminders with saved phrases | Consent (device permission) |
 
 ---
 
@@ -76,12 +94,17 @@ We use the collected information for the following purposes:
 
 - **Error reports** are stored in Supabase (cloud database) with industry-standard security measures
 - **Crash reports** are processed by Sentry for diagnosing technical issues
+- **Analytics data** is processed by Google Firebase Analytics in accordance with their privacy practices
+- **Reminder settings** are stored locally on your device via app storage
 - Data is stored on servers located in the United States and European Union
 
 ### 3.2 Data Retention
 
 - **Error reports**: Retained until reviewed and processed, then anonymized or deleted within 12 months
 - **Crash reports**: Retained according to Sentry default settings (90 days)
+- **Analytics data**: Retained according to Firebase default settings (14 months)
+- **Reminder settings**: Retained on your device until changed by you or app data is cleared
+- **Local study activity timestamps for reminder timing**: Up to 30 days on-device (with an internal cap)
 
 ### 3.3 Security Measures
 
@@ -103,6 +126,7 @@ We use the following third-party services:
 |---------|---------|----------------|
 | **Supabase** | Database and backend | [supabase.com/privacy](https://supabase.com/privacy) |
 | **Sentry** | Crash reporting | [sentry.io/privacy](https://sentry.io/privacy/) |
+| **Firebase Analytics** | Anonymous usage analytics | [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy) |
 | **Google Play Services** | App distribution | [policies.google.com/privacy](https://policies.google.com/privacy) |
 
 ### 4.2 We Do NOT:
@@ -139,13 +163,16 @@ If you are a California resident, you have the right to:
 ### 5.3 How to Exercise Your Rights
 
 To exercise any of these rights, contact us at:
-- **Email:** collaborationskillsup@gmail.com
+- **Email:** maxskillsup@gmail.com
 
 We will respond to your request within 30 days.
 
 ### 5.4 Opt-Out Options
 
 - **Error Reports**: Submitting error reports is entirely voluntary
+- **Notifications**: You can disable reminders anytime in the app (set frequency to 0) or in system notification settings
+- **On-device reminder history**: You can clear app data to remove local reminder settings and local activity history
+- **Analytics**: You can limit tracking in your device settings (for example advertising ID / analytics limits). Uninstalling the App also stops further analytics collection from that install
 
 ---
 
@@ -186,9 +213,9 @@ We encourage you to review this Privacy Policy periodically. Continued use of th
 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
 
 **Developer:** MaxSkillsUP  
-**Email:** collaborationskillsup@gmail.com  
+**Email:** maxskillsup@gmail.com  
 **App:** Skills UP VG  
-**Package:** com.maxskillsup.skillsupvg
+**Package:** com.maxskillsup.SkillsUPVG
 
 ---
 
@@ -200,7 +227,10 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 |-----------|-----------|--------|---------|
 | Crash logs | Yes | No | App functionality |
 | Performance diagnostics | Yes | No | App functionality |
+| App interaction analytics | Yes | No | Analytics / product improvement |
 | Error notifications | Yes | No | Service improvement |
+| Reminder settings (on-device only) | No (server-side) | No | Local app functionality |
+| Study activity timestamps used for reminder timing (on-device only) | No (server-side) | No | Local app functionality |
 
 **Note:** Error notifications contain only the phrase ID being reported. Users cannot enter any custom text or personal information when reporting errors.
 
@@ -211,4 +241,4 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 
 ---
 
-*This Privacy Policy is effective as of February 4, 2026.*
+*This Privacy Policy is effective as of July 17, 2026.*

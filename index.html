@@ -235,8 +235,8 @@
             <div class="meta">
                 <p><strong>App:</strong> Skills UP VG</p>
                 <p><strong>Package:</strong> com.maxskillsup.skillsupvg</p>
-                <p><strong>Last Updated:</strong> February 4, 2026</p>
-                <p><strong>Effective Date:</strong> February 4, 2026</p>
+                <p><strong>Last Updated:</strong> July 17, 2026</p>
+                <p><strong>Effective Date:</strong> July 17, 2026</p>
             </div>
         </div>
 
@@ -268,6 +268,10 @@
                 <li>Device type and operating system version</li>
                 <li>App version</li>
             </ul>
+
+            <p><strong>Local Notification Preferences (On Device Only)</strong></p>
+            <p>If you enable study reminders, the app stores the selected frequency and reminder schedule locally on your device to deliver local notifications.</p>
+            <p>This data is not sent to our servers.</p>
             
             <p><strong>Crash Reports</strong></p>
             <p>We use Sentry for crash reporting to help diagnose and fix technical issues. This includes:</p>
@@ -276,7 +280,16 @@
                 <li>App version and operating system version</li>
                 <li>General technical information for diagnostics</li>
             </ul>
-            <p>We do not collect usage analytics or track user behavior.</p>
+
+            <p><strong>Analytics Data</strong></p>
+            <p>We use Firebase Analytics (Google) to understand how people use the App. This helps us see where users stop using the App and improve features. This includes:</p>
+            <ul>
+                <li>Screens viewed and features used (for example categories, audio playback, games)</li>
+                <li>Session duration and activity</li>
+                <li>General technical context (app version, device type)</li>
+                <li>Approximate geographic region at country level (if provided by Google)</li>
+            </ul>
+            <p>Analytics is <strong>anonymous</strong>: no account is required, and we do not link these events to your name or email. We do not use Firebase Analytics for personalized advertising.</p>
 
             <h3>1.3 Information We Do NOT Collect</h3>
             <div class="highlight">
@@ -323,6 +336,10 @@
                         <td>Ensure app security and prevent fraud</td>
                         <td>Legitimate interest</td>
                     </tr>
+                    <tr>
+                        <td>Send optional local study reminders with saved phrases</td>
+                        <td>Consent (device permission)</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
@@ -334,6 +351,8 @@
             <ul>
                 <li><strong>Error reports</strong> are stored in Supabase (cloud database) with industry-standard security measures</li>
                 <li><strong>Crash reports</strong> are processed by Sentry for diagnosing technical issues</li>
+                <li><strong>Analytics data</strong> is processed by Google Firebase Analytics</li>
+                <li><strong>Reminder settings</strong> are stored locally on your device</li>
                 <li>Data is stored on servers located in the United States and European Union</li>
             </ul>
 
@@ -341,6 +360,8 @@
             <ul>
                 <li><strong>Error reports:</strong> Retained until reviewed and processed, then anonymized or deleted within 12 months</li>
                 <li><strong>Crash reports:</strong> Retained according to Sentry default settings (90 days)</li>
+                <li><strong>Analytics data:</strong> Retained according to Firebase default settings (14 months)</li>
+                <li><strong>Reminder settings:</strong> Retained on your device until changed by you or app data is cleared</li>
             </ul>
 
             <h3>3.3 Security Measures</h3>
@@ -375,6 +396,11 @@
                         <td>Sentry</td>
                         <td>Crash reporting</td>
                         <td><a href="https://sentry.io/privacy/" target="_blank">Link</a></td>
+                    </tr>
+                    <tr>
+                        <td>Firebase Analytics</td>
+                        <td>Anonymous usage analytics</td>
+                        <td><a href="https://firebase.google.com/support/privacy" target="_blank">Link</a></td>
                     </tr>
                     <tr>
                         <td>Google Play Services</td>
@@ -421,6 +447,8 @@
             <h3>5.4 Opt-Out Options</h3>
             <ul>
                 <li><strong>Error Reports:</strong> Submitting error reports is entirely voluntary</li>
+                <li><strong>Notifications:</strong> You can disable reminders in the app (set frequency to 0) or in system notification settings</li>
+                <li><strong>Analytics:</strong> You can limit tracking in your device settings. Uninstalling the App also stops further analytics collection from that install</li>
             </ul>
         </div>
 
@@ -477,10 +505,22 @@
                         <td>App functionality</td>
                     </tr>
                     <tr>
+                        <td>App interaction analytics</td>
+                        <td>Yes</td>
+                        <td>No</td>
+                        <td>Analytics / product improvement</td>
+                    </tr>
+                    <tr>
                         <td>Error notifications</td>
                         <td>Yes</td>
                         <td>No</td>
                         <td>Service improvement</td>
+                    </tr>
+                    <tr>
+                        <td>Reminder settings (on-device only)</td>
+                        <td>No (server-side)</td>
+                        <td>No</td>
+                        <td>Local app functionality</td>
                     </tr>
                 </tbody>
             </table>
@@ -498,7 +538,7 @@
 
     <footer class="footer">
         <p>© 2026 MaxSkillsUP. All rights reserved.</p>
-        <p>This Privacy Policy is effective as of February 4, 2026.</p>
+        <p>This Privacy Policy is effective as of July 17, 2026.</p>
     </footer>
 </body>
 </html>
